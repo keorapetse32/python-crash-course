@@ -1,5 +1,11 @@
-cars = ['FERRARI', 'LAMBORGHINI', 'BMW', 'DODGE', 'MERCEDES-BENZ']
-for car in cars:
-	print(f"{car.title()}, is the best car!")
-	
-print('thank you')
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+	print(magician)
+
+for magician in magicians:
+	print(f"{magician.title()}, that was a great trick!")
+	print(f"I can't wait to see your next trick, {magician.title()}.\n")
+
+print("Thank you, everyone. That was a great magic show!")
+
+print(f"I can't wait to see your next trick, {magician.title()}.\n")
